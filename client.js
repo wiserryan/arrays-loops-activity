@@ -7,6 +7,12 @@
  *    hobbies
  */
 
+    let hobbies = ['going on walks', 'playing guitar', 'shoveling snow'];
+for (let i=1; i<4; i++) {
+    console.log(`${i}. ${hobbies[i]}`);
+}
+    console.log(hobbies.length);
+
 
 // Example output
 // 1. swimming
@@ -26,6 +32,17 @@
  */
 
 
+// we only made it through two together, 
+// I can't seem to find the error in my code compared to 
+// our group work.
+// The error is poitning towards i in line 42
+let colors = ['teal', 'teal', 'green', 'blue', 'teal'];
+let tealCount = 0;
+for (let i=0; i < colors.length; i++);{
+    if( colors [i] === 'teal'){
+        tealCount++;
+    }
+}
 // Example output
 // green, red, teal, orange, teal
 // Teal was found 2 times
@@ -40,6 +57,7 @@
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
+
 
 
 // Example output
